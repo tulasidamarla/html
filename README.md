@@ -16,4 +16,16 @@ Lists
 -----
 There are two types of lists. Ordered lists(ol tag) and Unordered lists(ul tag). ol tags are less frequently used. Both ul and ol tags have a child tag li. li means list item. The difference between ol and ul is ol list items are given numbering where as ul list items are displayed with bullets.
 
+Creating Weblinks
+-----------------
+To create weblink to anchor tag is used. For ex to create a link for an external website:
     
+    <a href="www.youtube.com">Go to Youtube </a>
+    
+If you want to create a link to different sections with in the same page:
+    
+    <a href="#Section1>Go to Section1</a>
+
+The section1 should be defined like this:
+    
+    <a name="Section1">This is Section1 </a>
