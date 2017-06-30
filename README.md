@@ -29,3 +29,11 @@ If you want to create a link to different sections with in the same page:
 The section1 should be defined like this:
     
     <a name="Section1">This is Section1 </a>
+
+Image tag
+---------
+To render an image on the document use img tag. For ex,
+    
+    <img src="abc.jpg">
+
+Note: img is also an empty tag, because you don't need any text to be displayed.
