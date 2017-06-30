@@ -12,3 +12,8 @@ is a line break. It doesn't need end element because we are not writing anything
 
     &nbsp
     
+Lists
+-----
+There are two types of lists. Ordered lists(ol tag) and Unordered lists(ul tag). ol tags are less frequently used. Both ul and ol tags have a child tag li. li means list item. The difference between ol and ul is ol list items are given numbering where as ul list items are displayed with bullets.
+
+    
