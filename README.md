@@ -46,7 +46,7 @@ Input tags are for user to enter, select something for server side rendering of 
         <input type="text" name="userName" size = "20">
     </form>
  
-Note: Input is another empty tag.
+Note: Input is another empty tag. There are different input elements like text, radio button, select, submit etc.
 
 Label tag
 ---------
@@ -56,4 +56,10 @@ Label tags are used to label different html elements. More often input elements.
     <input id="firstName" type="text">
 
 Note: for attribute of label tag should match id attribute of input tag. so when we click on label, it will take the cursor to the input element.
+
+textarea
+---------
+textarea tag is used for entering multiline text. unlike input it is not an empty element. Ex:
+    
+    <textarea rows="20" 
 
