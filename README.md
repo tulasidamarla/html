@@ -43,8 +43,17 @@ Input tag
 Input tags are for user to enter, select something for server side rendering of data. These elements come under form tag. For ex,
 
     <form action="/login" method="GET">
-        <input type="text" name="userName">
+        <input type="text" name="userName" size = "20">
     </form>
  
 Note: Input is another empty tag.
+
+Label tag
+---------
+Label tags are used to label different html elements. More often input elements. For ex,
+    
+    <label for="firstName" > First Name:</label>
+    <input id="firstName" type="text">
+
+Note: for attribute of label tag should match id attribute of input tag. so when we click on label, it will take the cursor to the input element.
 
