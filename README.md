@@ -37,3 +37,14 @@ To render an image on the document use img tag. For ex,
     <img src="abc.jpg">
 
 Note: img is also an empty tag, because you don't need any text to be displayed. you can resize the image by specifying height and width attributes.
+
+Input tag
+---------
+Input tags are for user to enter, select something for server side rendering of data. These elements come under form tag. For ex,
+
+    <form action="/login" method="GET">
+        <input type="text" name="userName">
+    </form>
+ 
+Note: Input is another empty tag.
+
