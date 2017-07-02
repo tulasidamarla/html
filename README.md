@@ -61,5 +61,5 @@ textarea
 ---------
 textarea tag is used for entering multiline text. unlike input it is not an empty element. Ex:
     
-    <textarea rows="20" 
+    <textarea rows="20" cols="40"></textarea>
 
