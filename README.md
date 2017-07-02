@@ -82,7 +82,7 @@ Number input box
 Number input box is used to input numbers.
     <input type="number" min="0" max="50">
     
-Note: number input box only allows to enter number.
+Note: number input box only allows to enter number. It gives two caret type button to increase or decrease based on min and max. But if user manually types a value, then it is not possible to restrict. That should be handled by javascript.
 
 
 Drop down list
