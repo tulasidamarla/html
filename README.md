@@ -77,4 +77,22 @@ Both radio button and check boxes are used for taking serveys, preferences etc f
 
 Note: name attribute should be same, otherwise both radio buttons are treated seperately. In checkbox, if checked attribute set to "checked", that is checked by default on page load.
 
+Number input box
+----------------
+Number input box is used to input numbers.
+    <input type="number" min="0" max="50">
+    
+Note: number input box only allows to enter number.
 
+
+Drop down list
+--------------
+Select tag is used for drop down selection. For ex,
+    
+    <select>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Chennai">Chennai</option>
+    </select>
+    
