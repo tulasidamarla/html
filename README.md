@@ -96,3 +96,10 @@ Select tag is used for drop down selection. For ex,
         <option value="Chennai">Chennai</option>
     </select>
     
+Date 
+-----
+date box is used to enter date. For ex,
+
+    <input type="date" name="journeyDate"> 
+    
+Note: This gives a calendar also for the user to select.    
