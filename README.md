@@ -103,3 +103,18 @@ date box is used to enter date. For ex,
     <input type="date" name="journeyDate"> 
     
 Note: This gives a calendar also for the user to select.    
+
+fieldset and legend elements
+----------------------------
+fieldset is wraps all fields inside a box. legend is used to display a legend text on the top edge of the box. For ex,
+
+    <fieldset>
+		<legend> This is the form to be filled for trip</legend>
+		<label for="firstName" > First Name:</label>
+		<input id="firstName" type="text" size="20">
+		<br>
+		<br>
+		<label for="age"> Age: </label>
+		<input type="number" id="age" min="0" max="50"><br>
+		<br>
+    </fieldset>    
