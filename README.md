@@ -24,7 +24,7 @@ To create weblink to anchor tag is used. For ex to create a link for an external
     
 If you want to create a link to different sections with in the same page:
     
-    <a href="#Section1>Go to Section1</a>
+    <a href="#Section1">Go to Section1</a>
 
 The section1 should be defined like this:
     
