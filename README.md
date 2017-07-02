@@ -63,3 +63,18 @@ textarea tag is used for entering multiline text. unlike input it is not an empt
     
     <textarea rows="20" cols="40"></textarea>
 
+Radio Button and check boxes
+----------------------------
+Both radio button and check boxes are used for taking serveys, preferences etc from the user. Radio button is mutually excluse, where as check boxes are multi select. For ex,
+    
+    yes:
+    <input type="radio" name="prefergames" value="yes">
+    no:
+    <input type="radio" name="prefergames" value="no">
+    <input type="checkbox" name="" checked="checked" >Foot ball <br>
+    <input type="checkbox" name="" >Basket ball <br>
+    <input type="checkbox" name="" >Cricket <br>
+
+Note: name attribute should be same, otherwise both radio buttons are treated seperately. In checkbox, if checked attribute set to "checked", that is checked by default on page load.
+
+
