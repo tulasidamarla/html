@@ -118,3 +118,19 @@ fieldset is wraps all fields inside a box. legend is used to display a legend te
 		<input type="number" id="age" min="0" max="50"><br>
 		<br>
     </fieldset>    
+
+Escape characters
+------------------
+There are few escape characters for space(&npbsp), TM(&#8482), ampersend(&amp), copyright symbol(&copy), greater than(&gt), lesser than(&lt), quetion mark symbols(&#63), otherwise they will not be recognized by browser. 
+
+Bold and Italic elements
+------------------------
+bold tag is <b>text</b> and italic tag is <i>text</t>. There is another tag <strong>text</strong> which is similar to bold but strong is used for text to speech programs, which is useful for blind people. Similarly, there is an <em>text</em> tag which is an alternate to italic tag.
+
+iframe
+------
+iframe is nothing but another html document embedded into our web page. It is used to load data from other web pages without reloading the entire page. For ex,
+	
+	<iframe frameborder="1" width="200" height="200" name="firstiframe" src="sample1.html"> 
+	        If you see this then your browser is not supporting iframe</iframe>
+	<a href="sample2.html" target="firstiframe">Switch to document sample2</a>
