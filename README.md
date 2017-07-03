@@ -125,7 +125,10 @@ There are few escape characters for space(&npbsp), TM(&#8482), ampersend(&amp), 
 
 Bold and Italic elements
 ------------------------
-bold tag is <b>text</b> and italic tag is <i>text</t>. There is another tag <strong>text</strong> which is similar to bold but strong is used for text to speech programs, which is useful for blind people. Similarly, there is an <em>text</em> tag which is an alternate to italic tag.
+bold tag is b and italic tag is i. There is another tag <strong>text</strong> which is similar to bold but strong is used for text to speech programs, which is useful for blind people. Similarly, there is an <em>text</em> tag which is an alternate to italic tag. For ex,
+
+	<b>bold text</b>
+	<i>italic text</i>
 
 iframe
 ------
@@ -147,4 +150,14 @@ Title and alt attributes
 Before html 5, title attribute is restricted to few elements, but since html 5 title can be added to every tag. Basically it is used when we hover over an image, to display some text. alt attribute is used when an image is not loaded, it can display the text present in the alt attribute. For ex,
 	
 	<img src="mypic.JPG" title="Tulasiram" alt="Tulasiram" width="200" height="200">
+	
+audio element
+--------------
+Audio element is used to play audio on the html document. For ex,
+	
+	<audio controls="audiocontrols">
+		<source src="gnr.mp3" type="audio/mp3">
+		<!-- This will be played if mp3 is not available-->
+		<source src="November Rain - Guns N Roses.wav" type="audio/wav">
+	</audio>
 	
