@@ -163,3 +163,10 @@ Audio element is used to play audio on the html document. For ex,
 	
 Note: In HTML5, we don't need to give value to controls, we can remove the value. audio tag has other attributes like 'autoplay' , 'loop','draggable' for autoplay on load of the document, loop for continuously repeating the song and draggable(draggable="true") for dragging the audio icon.
 
+video element
+-------------
+similar to audio, HTML5 has video element. The only difference is we need to mention width and height attributes in video tag. For ex,
+
+	<video controls>
+		<source src="gnr.mp4" type="video/mp4">
+	</video>
