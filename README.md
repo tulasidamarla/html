@@ -161,3 +161,5 @@ Audio element is used to play audio on the html document. For ex,
 		<source src="November Rain - Guns N Roses.wav" type="audio/wav">
 	</audio>
 	
+Note: In HTML5, we don't need to give value to controls, we can remove the value. audio tag has other attributes like 'autoplay' , 'loop','draggable' for autoplay on load of the document, loop for continuously repeating the song and draggable for dragging the audio icon.
+
