@@ -134,3 +134,17 @@ iframe is nothing but another html document embedded into our web page. It is us
 	<iframe frameborder="1" width="200" height="200" name="firstiframe" src="sample1.html"> 
 	        If you see this then your browser is not supporting iframe</iframe>
 	<a href="sample2.html" target="firstiframe">Switch to document sample2</a>
+
+sub and sup elements
+---------------------
+sub script and super script elements are used to raise or lower the content. For ex, in August 23rd if you want to raise the rd text above 23, we need to use sup. similarly, For H2O if we want to lower the 2, then use sup. For ex,
+	
+	<p>I will be on leave on August 23<sup>rd</sup> </p>
+	<p> There is lot of H<sub>2</sub>O in the lake</p>
+	
+Title and alt attributes
+------------------------
+Before html 5, title attribute is restricted to few elements, but since html 5 title can be added to every tag. Basically it is used when we hover over an image, to display some text. alt attribute is used when an image is not loaded, it can display the text present in the alt attribute. For ex,
+	
+	<img src="mypic.JPG" title="Tulasiram" alt="Tulasiram" width="200" height="200">
+	
